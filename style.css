@@ -10,16 +10,19 @@ body {
     border-radius: 50%;
     fill: #fff;
     cursor: pointer;
+
+    transition-property: background-color;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0ms, 150ms;
 }
 
 .call-iconbtn:hover {
     background-color: #625769;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .call-iconbtn:focus {
     background-color: #625769;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-container {
